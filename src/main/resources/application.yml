@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: cache-app
+server:
+  port: 8080
+logging:
+  level:
+    org:
+      springframework:
+        web: DEBUG
+cache:
+  infinispan:
+    clustered: infinispan_clustered_local.xml
